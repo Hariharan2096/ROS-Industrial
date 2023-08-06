@@ -25,6 +25,7 @@ public:
                       myworkcell_core::LocalizePart::Response& res)
     {
         fake_ar_publisher::ARMarkerConstPtr p = last_msg_;
+
         if (!p) return false;
 
         res.pose = p->pose.pose;
