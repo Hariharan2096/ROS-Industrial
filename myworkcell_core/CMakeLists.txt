@@ -12,6 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
   fake_ar_publisher
   geometry_msgs
   message_generation
+  tf2_ros
+  tf2_geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -111,6 +113,8 @@ catkin_package(
     fake_ar_publisher
     geometry_msgs
     message_runtime
+    tf2_ros
+    tf2_geometry_msgs
 #  DEPENDS system_lib
 )
 
