@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: myworkcell_support
+    relative_path: urdf/workcell.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/myworkcell.srdf
+  CONFIG:
+    author_name: hariharan2096
+    author_email: hariharan200996@gmail.com
+    generated_timestamp: 1691824505
